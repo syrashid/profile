@@ -1,0 +1,97 @@
+
+@media (max-width: 1720px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+
+body {
+  background-color: rgba(193, 224, 247, 0.5);
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.img-circle {
+  width: 180px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  box-shadow: 4px 4px 8px rgb(193, 224, 247, 0.8);
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+
+a {
+  color: rgba(193, 224, 247, 0.5);
+  text-decoration: none;
+}
+
+.contact > li > a:hover {
+  color: rgba(193, 224, 247, 1.0);
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  font-size: 60px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 4px 4px 8px rgb(193, 224, 247, 0.8);
+  padding: 24px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background-color: rgb(193, 224, 247, 0.75);
+  color: rgba(0, 0, 0, 0.8);
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgb(193, 224, 247, 0.8);
+  font-weight: bolder
+}
+
+.btn-wrapper > a:hover {
+  background-color: rgba(193, 224, 247, 1.0);
+  color: rgba(255, 255, 255, 1.0);
+}
